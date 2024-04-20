@@ -58,7 +58,7 @@ def downloadComics(url, serie, cbrFilename, imgFolder):
     buildCbr(imgFolder, cbrPath)
 
 def downloadSource(url, htmlSource):
-    chromedriverPath = 'C:\\Program Files\\chromedriver-win64\\chromedriver.exe'
+    chromedriverPath = ' PATH / TO / chromedriver.exe'
     service = Service(executable_path=chromedriverPath)  
     
     chromedriver = webdriver.Chrome(service=service)   
